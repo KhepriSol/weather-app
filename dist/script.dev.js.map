@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["weather"],"mappings":";;AAAA,IAAIA,OAAO,GAAG;AACV,YAAU;AADA,CAAd","sourcesContent":["let weather = {\r\n    \"apiKey\": \"c235b39beb859eeb30e3774b3a867a45\"\r\n}"],"file":"script.dev.js"}
