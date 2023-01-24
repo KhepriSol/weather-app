@@ -4,7 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
     background: #222;
+   background-color: #B58ECC ; 
 }
 .card {
 background: #eaeaea;
@@ -13,4 +15,33 @@ border-radius: 30px;
 width: 100%;
 max-width: 420px;
 margin: 1em;
+}
+.search {
+    display:'flex';
+    align-items: center;
+    justify-content: center;
+   
+}
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    width:46px;
+    height:46px;
+    background-color: #d5acec;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background: #B58ECC;
+}
+input.search-bar{
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    background-color: #d5acec;
+    color:black;
+    font-size: 120%;
+    width: calc(89% - 60px);
+}
+h1.temp{
+    margin: 0;
 }
